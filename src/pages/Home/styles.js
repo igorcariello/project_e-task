@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {DEVICE_BREAKPOINTS} from "../../styles/deviceBreakpoint"
 
 export const Container = styled.div`
   width: 100%;
@@ -10,6 +11,15 @@ export const Container = styled.div`
   grid-template-areas: 
     "menu top"
     "menu content";
+
+  @media(max-width: ${DEVICE_BREAKPOINTS.MD}){
+    grid-template-areas: 
+    "top"
+    "content";
+
+    grid-template-columns: 1fr;
+  }
+
 `;
 
 export const FixedContent = styled.section`
