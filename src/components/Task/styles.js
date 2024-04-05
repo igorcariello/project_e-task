@@ -4,10 +4,8 @@ export const Container = styled.a`
   background-color: ${({ theme }) => theme.COLORS.GRAY_600};
   color: ${({ theme }) => theme.COLORS.GRAY_100};
 
-  height: 6rem;
-  
   padding: 1.5rem 1rem;
-  border-radius: 7px;
+  border-radius: 0.44rem;
 
   display: flex;
   align-items: center;

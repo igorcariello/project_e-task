@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.button`
   background-color: ${({ theme }) => theme.COLORS.GRAY_600};
   color: ${({ theme }) => theme.COLORS.GRAY_100};
-  height: 2.75rem;
+  height: 44px;
   border: 0;
   padding: 0 1rem;
   border-radius: 0.44rem;

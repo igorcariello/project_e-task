@@ -17,7 +17,8 @@ export const Container = styled.div`
     "top"
     "content";
 
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr;
   }
 
 `;

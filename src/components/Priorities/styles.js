@@ -25,19 +25,20 @@ export const Header = styled.header`
 
 export const Tasks = styled.div`
   border: 1px dashed  ${({ theme }) => theme.COLORS.RED_200};
-  min-height: 12.83rem;
-  border-radius: 7px;
-  margin-top: 1rem;
+  min-height: 154px;
+  border-radius: 0.44rem;
+  margin-top: 16px;
   
 
 
   display: flex;
-  gap: 16px;
-  padding: 1.5rem;
+  gap: 1rem;
+  padding: 24px;
   flex-wrap: wrap;
   
   @media (max-width: ${DEVICE_BREAKPOINTS.SM}){
     justify-content: center;
+    align-items: center;
   }
 
 `;
